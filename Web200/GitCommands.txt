@@ -9,3 +9,7 @@ Git add -A - add all file contents to index
 Esc:wq - to get out of a full blown commit
 
 
+Get code . working
+https://stackoverflow.com/questions/29955500/code-not-working-in-command-line-for-visual-studio-code-on-osx-mac
+
+Delete local git repository sudo rm -r directory
