@@ -1,0 +1,11 @@
+Git clone <repository>  - Installs copy of repository
+Git status - shows differences between local repository and the one on Git
+Git commit -m - committing changes with message on local repository
+Git push - sync local repository with github.com
+Git pull - pulls down GitHub repository
+Git add -A - add all file contents to index
+
+
+Esc:wq - to get out of a full blown commit
+
+
