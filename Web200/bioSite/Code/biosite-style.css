@@ -1,0 +1,8 @@
+/*Set font size to 16px on default browser settings */
+html {font-size: 16px;} 
+/*major thirds type scale*/
+h1 {font-size: 3.052em;}
+h2 {font-size: 2.441em;}
+h3 {font-size: 1.953em;}
+h4 {font-size: 1.563em;}
+h5 {font-size: 1.25em;}
