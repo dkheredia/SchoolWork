@@ -44,7 +44,7 @@ p {
 /*History with image, fonts and colors*/
 .history img{
     float: right;
-    width 25%;
+    width: 25%;
     height: 25%;
     padding: 30px;
 }
@@ -56,7 +56,7 @@ p {
 /*Inspiration with image, fonts and colors*/
 .inspiration img{
     float: right;
-    width 25%;
+    width: 25%;
     height: 25%;
     padding: 30px;
 }
@@ -68,7 +68,7 @@ p {
 /*Hobbies with image, fonts and colors*/
 .hobbies img{
     float: right;
-    width 25%;
+    width: 25%;
     height: 25%;
     padding: 30px;
 }
@@ -80,7 +80,7 @@ p {
 /*Present Day with image, fonts and colors*/
 .present img{
     float: right;
-    width 25%;
+    width: 25%;
     height: 25%;
     padding: 30px;
 }
