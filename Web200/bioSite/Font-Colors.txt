@@ -1,0 +1,13 @@
+Font types:
+Verdana, Geneva, Tahoma, sans-serif
+Cursive
+Normal
+
+Color palette: Triadic Colors
+#A4FFDE
+#DEA4FF
+#B16BD9
+#ECCAFF
+#FFDEA4
+#D9B16B
+#FFECCA
