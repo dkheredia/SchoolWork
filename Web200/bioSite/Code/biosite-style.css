@@ -1,91 +1,118 @@
-/*Set font size to 16px on default browser settings */
+/* Set font size to 16px on default browser settings */
 html {font-size: 16px;} 
-/*major thirds type scale*/
+/* major thirds type scale*/
 h1 {font-size: 3.052em;}
 h2 {font-size: 2.441em;}
 h3 {font-size: 1.953em;}
 h4 {font-size: 1.563em;}
 h5 {font-size: 1.25em;}
-/*Fonts and Colors for the site, headings, and paragraphs*/
-body {background-color: #A4ffde}
+/* Padding and border are included in width and height calculations */
+* {
+    box-sizing: border-box;
+  }
+/* Color, font style, and spacing between element content and border*/
+body {
+    background-color: #A4ffde;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+/*Color, font styling, sizing, and height for headings and paragraphs*/
 h1 {
-    text-align: center;
     color: black;
-    font-family: cursive;
-    font-size: 4em;
     font-weight: 700;
     font-style: normal;
 }
 h2 {
     color: goldenrod;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin: 0;
-    padding-top: .5em;
+}
+h5 {
+    color: black;
+    font-weight: 500;
+    font-style: normal;
 }
 p {    
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     line-height: 1.4em;
 }
 /*Header with image, fonts and colors*/
-.header img {
-    float: left;
-    width: 15%;
-    height: 15%;
-    padding: 0px;
-}
 .header {
-    padding: 40px;
+    padding: 20px;
+    text-align: center;
     background-color: #dea4ff;
 }
-/*History with image, fonts and colors*/
-.history img{
-    float: right;
+.header h1 {
+    font-family: cursive;
+    font-size: 4em;
+    font-weight: 700;
+}
+.header img {
+    float: left;
+    width: 140px;
+}
+/*Navigation bar color*/
+.nav {
+    overflow: hidden;
+    background-color: lightgrey;
+}
+/* Navigation link color, alignment, location*/
+.nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Navigation link color on hover*/
+.nav a:hover{
+    background-color: #ddd;
+    color: blue;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+/* Right column */
+.rightcolumn {
+    float: left;
     width: 25%;
-    height: 25%;
-    padding: 30px;
+    padding-left: 20px;
 }
-.history {
-    height: 400px;
-    width: 900px;
-    background-color: #ffdea4;
-}
-/*Inspiration with image, fonts and colors*/
-.inspiration img{
-    float: right;
-    width: 25%;
-    height: 25%;
-    padding: 30px;
-}
-.inspiration {
-    height: 400px;
-    width: 900px;
-    background-color: #ffdea4;
-}
-/*Hobbies with image, fonts and colors*/
-.hobbies img{
-    float: right;
-    width: 25%;
-    height: 25%;
-    padding: 30px;
-}
-.hobbies {
-    height: 400px;
-    width: 900px;
-    background-color: #ffdea4;
-}
-/*Present Day with image, fonts and colors*/
-.present img{
-    float: right;
-    width: 25%;
-    height: 25%;
-    padding: 30px;
-}
-.present {
-    height: 400px;
-    width: 900px;
-    background-color: #ffdea4;
-}
+/* Fake image */
+.leftfakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+  }
+  /* Fake image */
+.rightfakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+  }
+  /* Add a card effect for articles */
+.info {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: lightgray;
+    margin-top: 20px;
+  }
