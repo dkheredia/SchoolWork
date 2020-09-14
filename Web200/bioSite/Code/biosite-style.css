@@ -71,7 +71,6 @@ p {
     background-color: #ddd;
     color: blue;
 }
-/* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
     float: left;
@@ -97,21 +96,25 @@ p {
     height: 100px;
     padding: 20px;
   }
-  /* Add a card effect for articles */
+/* Color, spacing btw element content and boarders for info details */
 .info {
-    background-color: white;
+    background-color: #ffdea4;
     padding: 20px;
     margin-top: 20px;
   }
-  /* Clear floats after the columns */
+/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
+/* Bottom Navigation link color*/
+.bottomnav a {
+    color: blue;
+}
   /* Footer */
 .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background: lightgray;
     margin-top: 20px;
